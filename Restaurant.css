@@ -1,0 +1,209 @@
+.Back
+{
+    position: absolute;
+    margin-top: -10px;
+    margin-left: -10px;
+    height: 101%;
+    width: 100%;
+}
+.Logo
+{
+    position: absolute;
+    pointer-events: active;
+    border-radius: 55%;
+    background-color: #d4a084;
+    width: 16%;
+    mix-blend-mode: screen;
+}
+header ul
+{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 25%;
+    margin-top: 10%;
+    font-size: 20px;
+}
+header ul li 
+{
+    list-style: none;
+    margin-left: 29%;
+}
+header ul li a
+{
+    font-family: 'Climate Crisis', cursive;
+    text-decoration: none;
+    padding: 10px 20px;
+    color: rgb(255, 255, 255);
+    border-radius: 20px;
+}
+header ul li a:hover,
+header ul li a.active
+{
+    background: #DBAA95;
+    color: #646060;
+}
+.key
+{
+    position: absolute;
+    font-size: 50px;
+    color: #646060;
+    margin-left: 36%;
+    margin-top: 15%;
+    background-color: #DBAA95;
+    border-radius: 7px;
+    width: 26%;
+    font-family: 'League Gothic', sans-serif;
+    pointer-events: none;
+    
+}
+.ado img
+{
+    position: absolute;
+    width: 220px;
+    height: 220px;
+    margin-top: 30%;
+    margin-left: 10px;
+    border-radius: 32px;
+}
+.ado p
+{
+    position: absolute;
+    margin-top: 38%;
+    margin-left: 18%;
+    font-size: 46px;
+    color: #646060;
+    border-radius: 10px;
+    background-color: #d4a084;
+    width: 16%;
+
+}
+.bic img
+{
+    position: absolute;
+    width: 220px;
+    height: 220px;
+    margin-top: 30%;
+    margin-left: 82%;
+    border-radius: 32px;
+}
+.bic p
+{
+    position: absolute;
+    margin-top: 34%;
+    margin-left: 65%;
+    font-size: 46px;
+    color: #646060;
+    border-radius: 10px;
+    background-color: #d4a084;
+    width: 16%;
+
+}
+
+@media screen and (max-width: 600px) 
+{
+    .Back
+    {
+        position: absolute;
+        margin-top: -10px;
+        margin-left: -10px;
+        height: 265%;
+        width: 255%;
+    }
+    .Logo
+    {
+        position: absolute;
+        pointer-events: active;
+        border-radius: 95%;
+        background-color: #d4a084;
+        width: 66%;
+        mix-blend-mode: screen;
+        margin-left: 34vh;
+    }
+    header ul
+    {
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 1%;
+        margin-top: 50%;
+        font-size: 25px;
+    }
+    header ul li 
+    {
+        list-style: none;
+        margin-left: 5%;
+    }
+    header ul li a
+    {
+        font-family: 'Climate Crisis', cursive;
+        text-decoration: none;
+        padding: 10px 20px;
+        color: rgb(255, 255, 255);
+        border-radius: 20px;
+    }
+    header ul li a:hover,
+    header ul li a.active
+    {
+        background: #DBAA95;
+        color: #646060;
+    }
+    .key
+    {
+        position: absolute;
+        font-size: 30px;
+        color: #646060;
+        margin-left: 39vh;
+        margin-top: 85%;
+        background-color: #DBAA95;
+        border-radius: 7px;
+        width: 59.5%;
+        font-family: 'League Gothic', sans-serif;
+        pointer-events: none;
+        
+    }
+    .ado img
+    {
+        position: absolute;
+        width: 220px;
+        height: 220px;
+        margin-top: 150%;
+        margin-left: 10px;
+        border-radius: 32px;
+    }
+    .ado p
+    {
+        position: absolute;
+        margin-top: 168%;
+        margin-left: 68%;
+        font-size: 36px;
+        color: #646060;
+        border-radius: 10px;
+        background-color: #d4a084;
+        width: 56%;
+    
+    }
+    .bic img
+    {
+        position: absolute;
+        width: 220px;
+        height: 220px;
+        margin-top: 220%;
+        margin-left: 5%;
+        border-radius: 32px;
+    }
+    .bic p
+    {
+        position: absolute;
+        margin-top: 134vh;
+        margin-left: 68%;
+        font-size: 36px;
+        color: #646060;
+        border-radius: 10px;
+        background-color: #d4a084;
+        width: 56%;
+    
+    }   
+}

@@ -1,0 +1,337 @@
+.Back
+{
+    position: absolute;
+    margin-top: -10px;
+    margin-left: -10px;
+    height: 101%;
+    width: 100%;
+}
+.Logo
+{
+    position: absolute;
+    pointer-events: active;
+    border-radius: 55%;
+    background-color: #d4a084;
+    width: 16%;
+    mix-blend-mode: screen;
+}
+header ul
+{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 25%;
+    margin-top: 10%;
+    font-size: 20px;
+}
+header ul li 
+{
+    list-style: none;
+    margin-left: 29%;
+}
+header ul li a
+{
+    font-family: 'Climate Crisis', cursive;
+    text-decoration: none;
+    padding: 10px 20px;
+    color: rgb(255, 255, 255);
+    border-radius: 20px;
+}
+header ul li a:hover,
+header ul li a.active
+{
+    background: #DBAA95;
+    color: #646060;
+}
+.Ado img
+{
+    position: absolute;
+    width: 170px;
+    height: 170px;
+    margin-top: 17%;
+    margin-left: 10px;
+    border-radius: 32px;
+}
+.Ado p
+{
+    position: absolute;
+    margin-top: 20%;
+    margin-left: 14%;
+    font-size: 40px;
+    color: #646060;
+    border-radius: 10px;
+    background-color: #d4a084;
+    width: 16%;
+}
+.Bic img
+{
+    position: absolute;
+    width: 170px;
+    height: 170px;
+    margin-top: 31%;
+    margin-left: 10px;
+    border-radius: 32px;
+}
+.Bic p
+{
+    position: absolute;
+    margin-top: 33%;
+    margin-left: 14%;
+    font-size: 40px;
+    color: #646060;
+    border-radius: 10px;
+    background-color: #d4a084;
+    width: 16%;
+}
+.Sin img
+{
+    position: absolute;
+    width: 170px;
+    height: 170px;
+    margin-top: 17%;
+    margin-left: 31%;
+    border-radius: 32px;
+}
+.Sin p
+{
+    position: absolute;
+    margin-top: 20%;
+    margin-left: 44%;
+    font-size: 40px;
+    color: #646060;
+    border-radius: 10px;
+    background-color: #d4a084;
+    width: 16%;
+}
+.Cur img
+{
+    position: absolute;
+    width: 170px;
+    height: 170px;
+    margin-top: 31%;
+    margin-left: 31%;
+    border-radius: 32px;
+}
+.Cur p
+{
+    position: absolute;
+    margin-top: 33%;
+    margin-left: 44%;
+    font-size: 40px;
+    color: #646060;
+    border-radius: 10px;
+    background-color: #d4a084;
+    width: 16%;
+}
+.Bit img
+{
+    position: absolute;
+    width: 170px;
+    height: 170px;
+    margin-top: 17%;
+    margin-left: 61%;
+    border-radius: 32px;
+}
+.Bit p
+{
+    position: absolute;
+    margin-top: 20%;
+    margin-left: 74%;
+    font-size: 40px;
+    color: #646060;
+    border-radius: 10px;
+    background-color: #d4a084;
+    width: 16%;
+}
+.Bul img
+{
+    position: absolute;
+    width: 170px;
+    height: 170px;
+    margin-top: 31%;
+    margin-left: 61%;
+    border-radius: 32px;
+}
+.Bul p
+{
+    position: absolute;
+    margin-top: 34%;
+    margin-left: 74%;
+    font-size: 40px;
+    color: #646060;
+    border-radius: 10px;
+    background-color: #d4a084;
+    width: 16%;
+}
+
+@media screen and (max-width: 600px)
+{
+    .Back
+{
+    position: absolute;
+    margin-top: -10px;
+    margin-left: -10px;
+    height: 260vh;
+    width: 140vh;
+}
+.Logo
+{
+    position: absolute;
+    pointer-events: active;
+    border-radius: 55%;
+    background-color: #d4a084;
+    width: 66%;
+    mix-blend-mode: screen;
+    margin-left: 35vh;
+}
+header ul
+{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10%;
+    margin-top: 55%;
+    font-size: 20px;
+}
+header ul li 
+{
+    list-style: none;
+    margin-left: 5%;
+}
+header ul li a
+{
+    font-family: 'Climate Crisis', cursive;
+    text-decoration: none;
+    padding: 10px 20px;
+    color: rgb(255, 255, 255);
+    border-radius: 20px;
+}
+header ul li a:hover,
+header ul li a.active
+{
+    background: #DBAA95;
+    color: #646060;
+}
+.Ado img
+{
+    position: absolute;
+    width: 170px;
+    height: 170px;
+    margin-top: 55vh;
+    margin-left: 10px;
+    border-radius: 32px;
+}
+.Ado p
+{
+    position: absolute;
+    margin-top: 61vh;
+    margin-left: 29vh;
+    font-size: 29px;
+    color: #646060;
+    border-radius: 10px;
+    background-color: #d4a084;
+    width: 26%;
+}
+.Bic img
+{
+    position: absolute;
+    width: 170px;
+    height: 170px;
+    margin-top: 85vh;
+    margin-left: 10px;
+    border-radius: 32px;
+}
+.Bic p
+{
+    position: absolute;
+    margin-top: 90vh;
+    margin-left: 29vh;
+    font-size: 35px;
+    color: #646060;
+    border-radius: 10px;
+    background-color: #d4a084;
+    width: 46%;
+}
+.Sin img
+{
+    position: absolute;
+    width: 170px;
+    height: 170px;
+    margin-top: 55vh;
+    margin-left: 57vh;
+    border-radius: 32px;
+}
+.Sin p
+{
+    position: absolute;
+    margin-top: 61vh;
+    margin-left: 85vh;
+    font-size: 30px;
+    color: #646060;
+    border-radius: 10px;
+    background-color: #d4a084;
+    width: 30%;
+}
+.Cur img
+{
+    position: absolute;
+    width: 170px;
+    height: 170px;
+    margin-top: 115vh;
+    margin-left: 2vh;
+    border-radius: 32px;
+}
+.Cur p
+{
+    position: absolute;
+    margin-top: 120vh;
+    margin-left: 29vh;
+    font-size: 30px;
+    color: #646060;
+    border-radius: 10px;
+    background-color: #d4a084;
+    width: 45%;
+}
+.Bit img
+{
+    position: absolute;
+    width: 170px;
+    height: 170px;
+    margin-top: 85vh;
+    margin-left: 57vh;
+    border-radius: 32px;
+}
+.Bit p
+{
+    position: absolute;
+    margin-top: 93vh;
+    margin-left: 84vh;
+    font-size: 30px;
+    color: #646060;
+    border-radius: 10px;
+    background-color: #d4a084;
+    width: 29%;
+}
+.Bul img
+{
+    position: absolute;
+    width: 170px;
+    height: 170px;
+    margin-top: 115vh;
+    margin-left: 57vh;
+    border-radius: 32px;
+}
+.Bul p
+{
+    position: absolute;
+    margin-top: 121vh;
+    margin-left: 85vh;
+    font-size: 30px;
+    color: #646060;
+    border-radius: 10px;
+    background-color: #d4a084;
+    width: 26%;
+}
+}

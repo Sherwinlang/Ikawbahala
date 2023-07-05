@@ -1,0 +1,212 @@
+
+.Back
+{
+    position: absolute;
+    margin-top: -10px;
+    margin-left: -10px;
+    height: 101%;
+    width: 100%;
+}
+.Logo
+{
+    position: absolute;
+    pointer-events: active;
+    border-radius: 55%;
+    background-color: #d4a084;
+    width: 16%;
+    mix-blend-mode: screen;
+}
+header ul
+{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 25%;
+    margin-top: 10%;
+    font-size: 20px;
+}
+header ul li 
+{
+    list-style: none;
+    margin-left: 29%;
+}
+header ul li a
+{
+    font-family: 'Climate Crisis', cursive;
+    text-decoration: none;
+    padding: 10px 20px;
+    color: rgb(255, 255, 255);
+    border-radius: 20px;
+}
+header ul li a:hover,
+header ul li a.active
+{
+    background: #DBAA95;
+    color: #646060;
+}
+.abt h1
+{
+    position: absolute;
+    color: #646060;
+    background-color: #d4a084;
+    border-radius: 80px;
+    margin-top: 15%;
+    margin-left: 41%;
+}
+.abt p
+{
+    position: absolute;
+    color: #646060;
+    background-color: #DBAA95;
+    font-size: 20px;
+    border-radius: 10px;
+    margin-top: 18%;
+}
+.viss h1
+{
+    position: absolute;
+    color: #646060;
+    background-color: #d4a084;
+    border-radius: 80px;
+    margin-top: 24%;
+    margin-left: 42%;
+}
+.viss p
+{
+    position: absolute;
+    color: #646060;
+    background-color: #DBAA95;
+    font-size: 20px;
+    border-radius: 10px;
+    margin-top: 28%;
+}.miss h1
+{
+    position: absolute;
+    color: #646060;
+    background-color: #d4a084;
+    border-radius: 80px;
+    margin-top: 32%;
+    margin-left: 42%;
+}
+.miss p
+{
+    position: absolute;
+    color: #646060;
+    background-color: #DBAA95;
+    font-size: 20px;
+    border-radius: 10px;
+    margin-top: 36%;
+}
+
+@media screen and (max-width: 600px)
+{
+.Back
+{
+    position: absolute;
+    margin-top: -10px;
+    margin-left: -10px;
+    height: 260vh;
+    width: 145vh;
+}
+.Logo
+{
+    position: absolute;
+    pointer-events: active;
+    border-radius: 55%;
+    background-color: #d4a084;
+    width: 106%;
+    margin-left: 40vh;
+    mix-blend-mode: screen;
+}
+header ul
+{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 25%;
+    margin-top: 60vh;
+    font-size: 22px;
+}
+header ul li 
+{
+    list-style: none;
+    margin-left: 19%;
+}
+header ul li a
+{
+    font-family: 'Climate Crisis', cursive;
+    text-decoration: none;
+    padding: 10px 20px;
+    color: rgb(255, 255, 255);
+    border-radius: 20px;
+}
+header ul li a:hover,
+header ul li a.active
+{
+    background: #DBAA95;
+    color: #646060;
+}
+.abt h1
+{
+    position: absolute;
+    color: #646060;
+    background-color: #d4a084;
+    border-radius: 80px;
+    margin-top: 92vh;
+    margin-left: 63vh;
+    width: 25vh;
+}
+.abt p
+{
+    position: absolute;
+    color: #646060;
+    background-color: #DBAA95;
+    font-size: 20px;
+    border-radius: 10px;
+    width: 100vh;
+    margin-top: 100vh;
+    margin-left: 25vh;
+}
+.viss h1
+{
+    position: absolute;
+    color: #646060;
+    background-color: #d4a084;
+    border-radius: 80px;
+    margin-top: 118vh;
+    margin-left: 65vh;
+}
+.viss p
+{
+    position: absolute;
+    color: #646060;
+    background-color: #DBAA95;
+    font-size: 20px;
+    width: 100vh;
+    border-radius: 10px;
+    margin-top: 125vh;
+    margin-left: 25vh;
+}.miss h1
+{
+    position: absolute;
+    color: #646060;
+    background-color: #d4a084;
+    border-radius: 80px;
+    margin-top: 142vh;
+    margin-left: 64vh;
+}
+.miss p
+{
+    position: absolute;
+    color: #646060;
+    background-color: #DBAA95;
+    font-size: 20px;
+    width: 100vh;
+    border-radius: 10px;
+    margin-top: 150vh;
+    margin-left: 25vh;
+    align-items: center;
+}
+}

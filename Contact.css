@@ -1,0 +1,152 @@
+.Back
+{
+    position: absolute;
+    margin-top: -10px;
+    margin-left: -10px;
+    height: 101%;
+    width: 100%;
+}
+.Logo
+{
+    position: absolute;
+    pointer-events: active;
+    border-radius: 55%;
+    background-color: #d4a084;
+    width: 16%;
+    mix-blend-mode: screen;
+}
+header ul
+{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 25%;
+    margin-top: 10%;
+    font-size: 20px;
+}
+header ul li 
+{
+    list-style: none;
+    margin-left: 29%;
+}
+header ul li a
+{
+    font-family: 'Climate Crisis', cursive;
+    text-decoration: none;
+    padding: 10px 20px;
+    color: rgb(255, 255, 255);
+    border-radius: 20px;
+}
+header ul li a:hover,
+header ul li a.active
+{
+    background: #DBAA95;
+    color: #646060;
+}
+.con p
+{
+    position: absolute;
+    font-size: 40px;
+    color:#646060;
+    background:#d4a084;
+    border-radius: 10px;
+    margin-left: 5vh;
+    margin-top: 40vh;
+}
+.en p
+{
+    position: absolute;
+    font-size: 30px;
+    color: #646060;
+    background: #DBAA95;
+    border-radius: 10px;
+    margin-left: 5vh;
+    margin-top: 50vh;
+}
+iframe
+{
+    position: absolute;
+    border-radius: 10px;
+    margin-left: 90vh;
+    margin-top: 25vh;
+}
+
+@media screen and (max-width: 600px)
+{
+    .Back
+{
+    position: absolute;
+    margin: 0px;
+    margin-top: -10px;
+    margin-left: -10px;
+    height: 240vh;
+    width: 140vh;
+}
+.Logo
+{
+    position: absolute;
+    pointer-events: active;
+    border-radius: 55%;
+    background-color: #d4a084;
+    width: 56vh;
+    margin-left: 30vh;
+    mix-blend-mode: screen;
+}
+header ul
+{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 25%;
+    margin-top: 40vh;
+    font-size: 20px;
+}
+header ul li 
+{
+    list-style: none;
+    margin-left: 9%;
+}
+header ul li a
+{
+    font-family: 'Climate Crisis', cursive;
+    text-decoration: none;
+    padding: 10px 20px;
+    color: rgb(255, 255, 255);
+    border-radius: 20px;
+}
+header ul li a:hover,
+header ul li a.active
+{
+    background: #DBAA95;
+    color: #646060;
+}
+.con p
+{
+    position: absolute;
+    font-size: 40px;
+    color:#646060;
+    background:#d4a084;
+    border-radius: 10px;
+    margin-left: 5vh;
+    margin-top: 60vh;
+}
+.en p
+{
+    position: absolute;
+    font-size: 30px;
+    color: #646060;
+    background: #DBAA95;
+    border-radius: 10px;
+    margin-left: 5vh;
+    margin-top: 70vh;
+}
+iframe
+{
+    position: absolute;
+    border-radius: 10px;
+    margin-left: 5vh;
+    margin-top: 90vh;
+}
+}
